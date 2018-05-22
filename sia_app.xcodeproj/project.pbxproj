@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2757E31D20B467A1007ABD9C /* merro1.png in Resources */ = {isa = PBXBuildFile; fileRef = 2757E31C20B467A1007ABD9C /* merro1.png */; };
+		2757E31F20B46DE4007ABD9C /* usuario_escudo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2757E31E20B46DE3007ABD9C /* usuario_escudo.jpg */; };
+		276F8AB120B4D84F00B01935 /* toca-sia.png in Resources */ = {isa = PBXBuildFile; fileRef = 276F8AB020B4D84F00B01935 /* toca-sia.png */; };
+		276F8AB320B4DB1D00B01935 /* like-sia.png in Resources */ = {isa = PBXBuildFile; fileRef = 276F8AB220B4DB1D00B01935 /* like-sia.png */; };
+		276F8AB520B4DB2A00B01935 /* dislike-sia.png in Resources */ = {isa = PBXBuildFile; fileRef = 276F8AB420B4DB2A00B01935 /* dislike-sia.png */; };
+		276F8AB720B4DDB800B01935 /* sia-icon-58.png in Resources */ = {isa = PBXBuildFile; fileRef = 276F8AB620B4DDB800B01935 /* sia-icon-58.png */; };
 		27AAFBA420B3CE7700853B48 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27AAFBA320B3CE7700853B48 /* AppDelegate.swift */; };
 		27AAFBA620B3CE7700853B48 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27AAFBA520B3CE7700853B48 /* FirstViewController.swift */; };
 		27AAFBA820B3CE7700853B48 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27AAFBA720B3CE7700853B48 /* SecondViewController.swift */; };
@@ -39,6 +45,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2757E31C20B467A1007ABD9C /* merro1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = merro1.png; sourceTree = "<group>"; };
+		2757E31E20B46DE3007ABD9C /* usuario_escudo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = usuario_escudo.jpg; sourceTree = "<group>"; };
+		276F8AB020B4D84F00B01935 /* toca-sia.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "toca-sia.png"; sourceTree = "<group>"; };
+		276F8AB220B4DB1D00B01935 /* like-sia.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "like-sia.png"; sourceTree = "<group>"; };
+		276F8AB420B4DB2A00B01935 /* dislike-sia.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "dislike-sia.png"; sourceTree = "<group>"; };
+		276F8AB620B4DDB800B01935 /* sia-icon-58.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "sia-icon-58.png"; sourceTree = "<group>"; };
 		27AAFBA020B3CE7700853B48 /* sia_app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = sia_app.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		27AAFBA320B3CE7700853B48 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		27AAFBA520B3CE7700853B48 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
@@ -140,6 +152,12 @@
 		27AAFBD320B3D02C00853B48 /* images */ = {
 			isa = PBXGroup;
 			children = (
+				276F8AB620B4DDB800B01935 /* sia-icon-58.png */,
+				276F8AB420B4DB2A00B01935 /* dislike-sia.png */,
+				276F8AB220B4DB1D00B01935 /* like-sia.png */,
+				276F8AB020B4D84F00B01935 /* toca-sia.png */,
+				2757E31E20B46DE3007ABD9C /* usuario_escudo.jpg */,
+				2757E31C20B467A1007ABD9C /* merro1.png */,
 				27AAFBDC20B3D3EE00853B48 /* historial_sia.png */,
 				27AAFBDA20B3D38900853B48 /* busqueda_sia.png */,
 				27AAFBD820B3D33400853B48 /* yo_sia.png */,
@@ -253,8 +271,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				27AAFBD720B3D11A00853B48 /* about_sia.png in Resources */,
+				276F8AB520B4DB2A00B01935 /* dislike-sia.png in Resources */,
+				2757E31F20B46DE4007ABD9C /* usuario_escudo.jpg in Resources */,
+				276F8AB720B4DDB800B01935 /* sia-icon-58.png in Resources */,
+				276F8AB120B4D84F00B01935 /* toca-sia.png in Resources */,
 				27AAFBB020B3CE7900853B48 /* LaunchScreen.storyboard in Resources */,
+				276F8AB320B4DB1D00B01935 /* like-sia.png in Resources */,
 				27AAFBAD20B3CE7900853B48 /* Assets.xcassets in Resources */,
+				2757E31D20B467A1007ABD9C /* merro1.png in Resources */,
 				27AAFBAB20B3CE7700853B48 /* Main.storyboard in Resources */,
 				27AAFBDD20B3D3EE00853B48 /* historial_sia.png in Resources */,
 				27AAFBD920B3D33400853B48 /* yo_sia.png in Resources */,
@@ -467,7 +491,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "merrovingo.sia-app";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -484,7 +508,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "merrovingo.sia-app";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
