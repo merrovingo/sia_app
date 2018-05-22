@@ -15,6 +15,10 @@
 		27AAFBB020B3CE7900853B48 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 27AAFBAE20B3CE7900853B48 /* LaunchScreen.storyboard */; };
 		27AAFBBB20B3CE7900853B48 /* sia_appTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27AAFBBA20B3CE7900853B48 /* sia_appTests.swift */; };
 		27AAFBC620B3CE7900853B48 /* sia_appUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27AAFBC520B3CE7900853B48 /* sia_appUITests.swift */; };
+		27AAFBD720B3D11A00853B48 /* about_sia.png in Resources */ = {isa = PBXBuildFile; fileRef = 27AAFBD620B3D11A00853B48 /* about_sia.png */; };
+		27AAFBD920B3D33400853B48 /* yo_sia.png in Resources */ = {isa = PBXBuildFile; fileRef = 27AAFBD820B3D33400853B48 /* yo_sia.png */; };
+		27AAFBDB20B3D38900853B48 /* busqueda_sia.png in Resources */ = {isa = PBXBuildFile; fileRef = 27AAFBDA20B3D38900853B48 /* busqueda_sia.png */; };
+		27AAFBDD20B3D3EE00853B48 /* historial_sia.png in Resources */ = {isa = PBXBuildFile; fileRef = 27AAFBDC20B3D3EE00853B48 /* historial_sia.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +53,10 @@
 		27AAFBC120B3CE7900853B48 /* sia_appUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = sia_appUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		27AAFBC520B3CE7900853B48 /* sia_appUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sia_appUITests.swift; sourceTree = "<group>"; };
 		27AAFBC720B3CE7900853B48 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		27AAFBD620B3D11A00853B48 /* about_sia.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = about_sia.png; sourceTree = "<group>"; };
+		27AAFBD820B3D33400853B48 /* yo_sia.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = yo_sia.png; sourceTree = "<group>"; };
+		27AAFBDA20B3D38900853B48 /* busqueda_sia.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = busqueda_sia.png; sourceTree = "<group>"; };
+		27AAFBDC20B3D3EE00853B48 /* historial_sia.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = historial_sia.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +87,7 @@
 		27AAFB9720B3CE7700853B48 = {
 			isa = PBXGroup;
 			children = (
+				27AAFBD320B3D02C00853B48 /* images */,
 				27AAFBA220B3CE7700853B48 /* sia_app */,
 				27AAFBB920B3CE7900853B48 /* sia_appTests */,
 				27AAFBC420B3CE7900853B48 /* sia_appUITests */,
@@ -126,6 +135,17 @@
 				27AAFBC720B3CE7900853B48 /* Info.plist */,
 			);
 			path = sia_appUITests;
+			sourceTree = "<group>";
+		};
+		27AAFBD320B3D02C00853B48 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				27AAFBDC20B3D3EE00853B48 /* historial_sia.png */,
+				27AAFBDA20B3D38900853B48 /* busqueda_sia.png */,
+				27AAFBD820B3D33400853B48 /* yo_sia.png */,
+				27AAFBD620B3D11A00853B48 /* about_sia.png */,
+			);
+			path = images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -232,9 +252,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				27AAFBD720B3D11A00853B48 /* about_sia.png in Resources */,
 				27AAFBB020B3CE7900853B48 /* LaunchScreen.storyboard in Resources */,
 				27AAFBAD20B3CE7900853B48 /* Assets.xcassets in Resources */,
 				27AAFBAB20B3CE7700853B48 /* Main.storyboard in Resources */,
+				27AAFBDD20B3D3EE00853B48 /* historial_sia.png in Resources */,
+				27AAFBD920B3D33400853B48 /* yo_sia.png in Resources */,
+				27AAFBDB20B3D38900853B48 /* busqueda_sia.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
