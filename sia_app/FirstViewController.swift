@@ -7,12 +7,29 @@
 //
 
 import UIKit
+import AVFoundation
 
 class FirstViewController: UIViewController {
+
+    // Instancia de audio
+    var audioPlayer = AVAudioPlayer()
+    
+    // Boton reproduce audio
+    @IBAction func busqueda_1(_ sender: Any) {
+        audioPlayer.play()
+    }
 
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        // Reproduccion de audio
+        do {
+            let audioPath = Bundle.main.path(forResource: "search_1", ofType: "wav")
+            try audioPlayer = AVAudioPlayer(contentsOf: NSURL(fileURLWithPath: audioPath!) as URL)
+        }
+        catch {
+            // error
+        }
     }
 
     override func didReceiveMemoryWarning() {

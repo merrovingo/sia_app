@@ -25,6 +25,11 @@
 		27AAFBD920B3D33400853B48 /* yo_sia.png in Resources */ = {isa = PBXBuildFile; fileRef = 27AAFBD820B3D33400853B48 /* yo_sia.png */; };
 		27AAFBDB20B3D38900853B48 /* busqueda_sia.png in Resources */ = {isa = PBXBuildFile; fileRef = 27AAFBDA20B3D38900853B48 /* busqueda_sia.png */; };
 		27AAFBDD20B3D3EE00853B48 /* historial_sia.png in Resources */ = {isa = PBXBuildFile; fileRef = 27AAFBDC20B3D3EE00853B48 /* historial_sia.png */; };
+		27BD25EC20B6232500B0C6BB /* AcercadeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27BD25EB20B6232500B0C6BB /* AcercadeViewController.swift */; };
+		27BD25EF20B6237100B0C6BB /* acerca_de.wav in Resources */ = {isa = PBXBuildFile; fileRef = 27BD25EE20B6237100B0C6BB /* acerca_de.wav */; };
+		27BD25F220B627ED00B0C6BB /* search_1.wav in Resources */ = {isa = PBXBuildFile; fileRef = 27BD25F020B627ED00B0C6BB /* search_1.wav */; };
+		27BD25F320B627ED00B0C6BB /* search_2.wav in Resources */ = {isa = PBXBuildFile; fileRef = 27BD25F120B627ED00B0C6BB /* search_2.wav */; };
+		27BD25F520B6291E00B0C6BB /* busquedaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27BD25F420B6291E00B0C6BB /* busquedaViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -69,6 +74,11 @@
 		27AAFBD820B3D33400853B48 /* yo_sia.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = yo_sia.png; sourceTree = "<group>"; };
 		27AAFBDA20B3D38900853B48 /* busqueda_sia.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = busqueda_sia.png; sourceTree = "<group>"; };
 		27AAFBDC20B3D3EE00853B48 /* historial_sia.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = historial_sia.png; sourceTree = "<group>"; };
+		27BD25EB20B6232500B0C6BB /* AcercadeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AcercadeViewController.swift; sourceTree = "<group>"; };
+		27BD25EE20B6237100B0C6BB /* acerca_de.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = acerca_de.wav; sourceTree = "<group>"; };
+		27BD25F020B627ED00B0C6BB /* search_1.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = search_1.wav; sourceTree = "<group>"; };
+		27BD25F120B627ED00B0C6BB /* search_2.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = search_2.wav; sourceTree = "<group>"; };
+		27BD25F420B6291E00B0C6BB /* busquedaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = busquedaViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +109,7 @@
 		27AAFB9720B3CE7700853B48 = {
 			isa = PBXGroup;
 			children = (
+				27BD25ED20B6235F00B0C6BB /* audio */,
 				27AAFBD320B3D02C00853B48 /* images */,
 				27AAFBA220B3CE7700853B48 /* sia_app */,
 				27AAFBB920B3CE7900853B48 /* sia_appTests */,
@@ -123,6 +134,8 @@
 				27AAFBA320B3CE7700853B48 /* AppDelegate.swift */,
 				27AAFBA520B3CE7700853B48 /* FirstViewController.swift */,
 				27AAFBA720B3CE7700853B48 /* SecondViewController.swift */,
+				27BD25EB20B6232500B0C6BB /* AcercadeViewController.swift */,
+				27BD25F420B6291E00B0C6BB /* busquedaViewController.swift */,
 				27AAFBA920B3CE7700853B48 /* Main.storyboard */,
 				27AAFBAC20B3CE7900853B48 /* Assets.xcassets */,
 				27AAFBAE20B3CE7900853B48 /* LaunchScreen.storyboard */,
@@ -164,6 +177,16 @@
 				27AAFBD620B3D11A00853B48 /* about_sia.png */,
 			);
 			path = images;
+			sourceTree = "<group>";
+		};
+		27BD25ED20B6235F00B0C6BB /* audio */ = {
+			isa = PBXGroup;
+			children = (
+				27BD25F020B627ED00B0C6BB /* search_1.wav */,
+				27BD25F120B627ED00B0C6BB /* search_2.wav */,
+				27BD25EE20B6237100B0C6BB /* acerca_de.wav */,
+			);
+			path = audio;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -272,8 +295,10 @@
 			files = (
 				27AAFBD720B3D11A00853B48 /* about_sia.png in Resources */,
 				276F8AB520B4DB2A00B01935 /* dislike-sia.png in Resources */,
+				27BD25EF20B6237100B0C6BB /* acerca_de.wav in Resources */,
 				2757E31F20B46DE4007ABD9C /* usuario_escudo.jpg in Resources */,
 				276F8AB720B4DDB800B01935 /* sia-icon-58.png in Resources */,
+				27BD25F220B627ED00B0C6BB /* search_1.wav in Resources */,
 				276F8AB120B4D84F00B01935 /* toca-sia.png in Resources */,
 				27AAFBB020B3CE7900853B48 /* LaunchScreen.storyboard in Resources */,
 				276F8AB320B4DB1D00B01935 /* like-sia.png in Resources */,
@@ -283,6 +308,7 @@
 				27AAFBDD20B3D3EE00853B48 /* historial_sia.png in Resources */,
 				27AAFBD920B3D33400853B48 /* yo_sia.png in Resources */,
 				27AAFBDB20B3D38900853B48 /* busqueda_sia.png in Resources */,
+				27BD25F320B627ED00B0C6BB /* search_2.wav in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -308,7 +334,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				27AAFBA820B3CE7700853B48 /* SecondViewController.swift in Sources */,
+				27BD25F520B6291E00B0C6BB /* busquedaViewController.swift in Sources */,
 				27AAFBA420B3CE7700853B48 /* AppDelegate.swift in Sources */,
+				27BD25EC20B6232500B0C6BB /* AcercadeViewController.swift in Sources */,
 				27AAFBA620B3CE7700853B48 /* FirstViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
