@@ -25,6 +25,15 @@
 		27AAFBD920B3D33400853B48 /* yo_sia.png in Resources */ = {isa = PBXBuildFile; fileRef = 27AAFBD820B3D33400853B48 /* yo_sia.png */; };
 		27AAFBDB20B3D38900853B48 /* busqueda_sia.png in Resources */ = {isa = PBXBuildFile; fileRef = 27AAFBDA20B3D38900853B48 /* busqueda_sia.png */; };
 		27AAFBDD20B3D3EE00853B48 /* historial_sia.png in Resources */ = {isa = PBXBuildFile; fileRef = 27AAFBDC20B3D3EE00853B48 /* historial_sia.png */; };
+		27B6BE2B20B70AC00057E070 /* security-sia.png in Resources */ = {isa = PBXBuildFile; fileRef = 27B6BE2A20B70ABF0057E070 /* security-sia.png */; };
+		27B6BE2D20B70BA60057E070 /* proteccionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27B6BE2C20B70BA60057E070 /* proteccionViewController.swift */; };
+		27B6BE2F20B715120057E070 /* seguridad.wav in Resources */ = {isa = PBXBuildFile; fileRef = 27B6BE2E20B715110057E070 /* seguridad.wav */; };
+		27B6BE3120B724C30057E070 /* pregunta-sia.png in Resources */ = {isa = PBXBuildFile; fileRef = 27B6BE3020B724C20057E070 /* pregunta-sia.png */; };
+		27B6BE3320B7256F0057E070 /* recoleccionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27B6BE3220B7256F0057E070 /* recoleccionViewController.swift */; };
+		27B6BE3520B72D000057E070 /* recoleecion.wav in Resources */ = {isa = PBXBuildFile; fileRef = 27B6BE3420B72D000057E070 /* recoleecion.wav */; };
+		27B6BE3720B733590057E070 /* canvas-resultado.png in Resources */ = {isa = PBXBuildFile; fileRef = 27B6BE3620B733580057E070 /* canvas-resultado.png */; };
+		27B6BE3920B733EE0057E070 /* canvas-filtrado-1.png in Resources */ = {isa = PBXBuildFile; fileRef = 27B6BE3820B733ED0057E070 /* canvas-filtrado-1.png */; };
+		27B6BE3B20B734670057E070 /* canvas-filtrado-2.png in Resources */ = {isa = PBXBuildFile; fileRef = 27B6BE3A20B734660057E070 /* canvas-filtrado-2.png */; };
 		27BD25EC20B6232500B0C6BB /* AcercadeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27BD25EB20B6232500B0C6BB /* AcercadeViewController.swift */; };
 		27BD25EF20B6237100B0C6BB /* acerca_de.wav in Resources */ = {isa = PBXBuildFile; fileRef = 27BD25EE20B6237100B0C6BB /* acerca_de.wav */; };
 		27BD25F220B627ED00B0C6BB /* search_1.wav in Resources */ = {isa = PBXBuildFile; fileRef = 27BD25F020B627ED00B0C6BB /* search_1.wav */; };
@@ -74,6 +83,15 @@
 		27AAFBD820B3D33400853B48 /* yo_sia.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = yo_sia.png; sourceTree = "<group>"; };
 		27AAFBDA20B3D38900853B48 /* busqueda_sia.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = busqueda_sia.png; sourceTree = "<group>"; };
 		27AAFBDC20B3D3EE00853B48 /* historial_sia.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = historial_sia.png; sourceTree = "<group>"; };
+		27B6BE2A20B70ABF0057E070 /* security-sia.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "security-sia.png"; sourceTree = "<group>"; };
+		27B6BE2C20B70BA60057E070 /* proteccionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = proteccionViewController.swift; sourceTree = "<group>"; };
+		27B6BE2E20B715110057E070 /* seguridad.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = seguridad.wav; sourceTree = "<group>"; };
+		27B6BE3020B724C20057E070 /* pregunta-sia.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pregunta-sia.png"; sourceTree = "<group>"; };
+		27B6BE3220B7256F0057E070 /* recoleccionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = recoleccionViewController.swift; sourceTree = "<group>"; };
+		27B6BE3420B72D000057E070 /* recoleecion.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = recoleecion.wav; sourceTree = "<group>"; };
+		27B6BE3620B733580057E070 /* canvas-resultado.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "canvas-resultado.png"; sourceTree = "<group>"; };
+		27B6BE3820B733ED0057E070 /* canvas-filtrado-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "canvas-filtrado-1.png"; sourceTree = "<group>"; };
+		27B6BE3A20B734660057E070 /* canvas-filtrado-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "canvas-filtrado-2.png"; sourceTree = "<group>"; };
 		27BD25EB20B6232500B0C6BB /* AcercadeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AcercadeViewController.swift; sourceTree = "<group>"; };
 		27BD25EE20B6237100B0C6BB /* acerca_de.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = acerca_de.wav; sourceTree = "<group>"; };
 		27BD25F020B627ED00B0C6BB /* search_1.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = search_1.wav; sourceTree = "<group>"; };
@@ -136,6 +154,8 @@
 				27AAFBA720B3CE7700853B48 /* SecondViewController.swift */,
 				27BD25EB20B6232500B0C6BB /* AcercadeViewController.swift */,
 				27BD25F420B6291E00B0C6BB /* busquedaViewController.swift */,
+				27B6BE2C20B70BA60057E070 /* proteccionViewController.swift */,
+				27B6BE3220B7256F0057E070 /* recoleccionViewController.swift */,
 				27AAFBA920B3CE7700853B48 /* Main.storyboard */,
 				27AAFBAC20B3CE7900853B48 /* Assets.xcassets */,
 				27AAFBAE20B3CE7900853B48 /* LaunchScreen.storyboard */,
@@ -165,6 +185,11 @@
 		27AAFBD320B3D02C00853B48 /* images */ = {
 			isa = PBXGroup;
 			children = (
+				27B6BE3A20B734660057E070 /* canvas-filtrado-2.png */,
+				27B6BE3820B733ED0057E070 /* canvas-filtrado-1.png */,
+				27B6BE3620B733580057E070 /* canvas-resultado.png */,
+				27B6BE3020B724C20057E070 /* pregunta-sia.png */,
+				27B6BE2A20B70ABF0057E070 /* security-sia.png */,
 				276F8AB620B4DDB800B01935 /* sia-icon-58.png */,
 				276F8AB420B4DB2A00B01935 /* dislike-sia.png */,
 				276F8AB220B4DB1D00B01935 /* like-sia.png */,
@@ -182,6 +207,8 @@
 		27BD25ED20B6235F00B0C6BB /* audio */ = {
 			isa = PBXGroup;
 			children = (
+				27B6BE3420B72D000057E070 /* recoleecion.wav */,
+				27B6BE2E20B715110057E070 /* seguridad.wav */,
 				27BD25F020B627ED00B0C6BB /* search_1.wav */,
 				27BD25F120B627ED00B0C6BB /* search_2.wav */,
 				27BD25EE20B6237100B0C6BB /* acerca_de.wav */,
@@ -295,9 +322,13 @@
 			files = (
 				27AAFBD720B3D11A00853B48 /* about_sia.png in Resources */,
 				276F8AB520B4DB2A00B01935 /* dislike-sia.png in Resources */,
+				27B6BE3920B733EE0057E070 /* canvas-filtrado-1.png in Resources */,
+				27B6BE3120B724C30057E070 /* pregunta-sia.png in Resources */,
 				27BD25EF20B6237100B0C6BB /* acerca_de.wav in Resources */,
 				2757E31F20B46DE4007ABD9C /* usuario_escudo.jpg in Resources */,
 				276F8AB720B4DDB800B01935 /* sia-icon-58.png in Resources */,
+				27B6BE3720B733590057E070 /* canvas-resultado.png in Resources */,
+				27B6BE3B20B734670057E070 /* canvas-filtrado-2.png in Resources */,
 				27BD25F220B627ED00B0C6BB /* search_1.wav in Resources */,
 				276F8AB120B4D84F00B01935 /* toca-sia.png in Resources */,
 				27AAFBB020B3CE7900853B48 /* LaunchScreen.storyboard in Resources */,
@@ -306,9 +337,12 @@
 				2757E31D20B467A1007ABD9C /* merro1.png in Resources */,
 				27AAFBAB20B3CE7700853B48 /* Main.storyboard in Resources */,
 				27AAFBDD20B3D3EE00853B48 /* historial_sia.png in Resources */,
+				27B6BE2B20B70AC00057E070 /* security-sia.png in Resources */,
 				27AAFBD920B3D33400853B48 /* yo_sia.png in Resources */,
+				27B6BE2F20B715120057E070 /* seguridad.wav in Resources */,
 				27AAFBDB20B3D38900853B48 /* busqueda_sia.png in Resources */,
 				27BD25F320B627ED00B0C6BB /* search_2.wav in Resources */,
+				27B6BE3520B72D000057E070 /* recoleecion.wav in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -335,6 +369,8 @@
 			files = (
 				27AAFBA820B3CE7700853B48 /* SecondViewController.swift in Sources */,
 				27BD25F520B6291E00B0C6BB /* busquedaViewController.swift in Sources */,
+				27B6BE3320B7256F0057E070 /* recoleccionViewController.swift in Sources */,
+				27B6BE2D20B70BA60057E070 /* proteccionViewController.swift in Sources */,
 				27AAFBA420B3CE7700853B48 /* AppDelegate.swift in Sources */,
 				27BD25EC20B6232500B0C6BB /* AcercadeViewController.swift in Sources */,
 				27AAFBA620B3CE7700853B48 /* FirstViewController.swift in Sources */,
